@@ -1,21 +1,32 @@
-# jala
-  ## License
-  <img src="https://img.shields.io/badge/license-Apache-red" alt="badge-Apache" height="44"/>
+# jaks
+
+  <img src="https://img.shields.io/badge/license-Common Development and Distribution-green" alt="badge-Common Development and Distribution"/>
+
 ### Description
-please
+sjd
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributing)
 - [Tests](#tests)
 - [License](#license)
-- Contact (#github, #linkedin)
+- [Contact](#contact)
 
 ## Usage
-let
+djjd
+
 ## Installation
-this
+djdj
+
 ## Contributing
-work
+djdj
+
 ## Tests
-god
+djdj
+
+## License 
+The licesne used for this project was Common Development and Distribution.
+
+## Contact 
+Contact me at https://github.com/dksl; or dks.
