@@ -16,4 +16,4 @@ jala
 ## Tests
 jala
 ## License
-BSD
+Apache
