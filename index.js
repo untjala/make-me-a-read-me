@@ -44,15 +44,17 @@ const questions = [
         ]
     },
 ];
-console.log(questions)
 inquirer.prompt(questions).then((answers) => {
     utils.generateMarkdown(answers)
 });
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
-
+// fs.writeFileSync('./output/README.md', template);
+// console.log('Done!')
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+    // writeToFile();
+}
 
 // Function call to initialize app
 init();
