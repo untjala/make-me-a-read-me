@@ -29,17 +29,29 @@ const questions = [
         name: 'tests',
     },
     {
-        type: 'input',
-        message: 'What liscense is your project under?',
+        type: 'rawlist',
+        message: 'What license is your project under?',
         name: 'license',
+        choices: [
+            'Apache',
+            'BSD',
+            'Common Development and Distribution',
+            'Eclipse',
+            'GNU',
+            'MIT',
+            'Mozilla Public License',
+        ]
     },
 ];
-
+console.log(questions)
+inquirer.prompt(questions).then((answers) => {
+    utils.generateMarkdown(answers)
+});
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() { }
 
 // Function call to initialize app
 init();
