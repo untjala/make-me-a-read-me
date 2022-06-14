@@ -1,7 +1,9 @@
+//Required packages for application functionality
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+//Array to hold prompt questions and their labels
 const questions = [
     {
         type: 'input',
@@ -37,6 +39,7 @@ const questions = [
         type: 'rawlist',
         message: 'What license is your project under?',
         name: 'license',
+        //Seperate choice array for the different licenses
         choices: [
             'Apache',
             'BSD',
@@ -59,10 +62,12 @@ const questions = [
         name: 'email',
     },
 ];
+//This function calls on fs to collect the file name and data to be sent to the README.md
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data);
     console.log('Done!');
 }
+//Init function to run questions and send them to the README in the output file once complete
 function init() {
     inquirer.prompt(questions)
         .then((answers) => writeToFile('./output/README.md', generateMarkdown(answers)))

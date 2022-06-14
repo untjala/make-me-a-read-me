@@ -1,4 +1,4 @@
-//used const to set if statements for badge choices, as well as a return statement to display the badge on the page.
+//used const to set if statements for badge choices, as well as a return statement to display the badge on the page--alternative to using multiple functions
 const renderLicenseBadge = (type) => {
   let color;
   if (type === "Apache") color = "red";
@@ -14,7 +14,7 @@ const renderLicenseBadge = (type) => {
   );
 };
 
-
+// Pulls data from array and badge src to be displayed in README
 function generateMarkdown(data) {
   return `# ${data.title}
 
