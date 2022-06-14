@@ -1,9 +1,9 @@
-# jaks
+# Make me a read me!
 
-  <img src="https://img.shields.io/badge/license-Common Development and Distribution-green" alt="badge-Common Development and Distribution"/>
+  <img src="https://img.shields.io/badge/license-Mozilla Public License-gray" alt="badge-Mozilla Public License"/>
 
 ### Description
-sjd
+This project takes in the user response to the prompts and dynamically generates a read me.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,19 +14,19 @@ sjd
 - [Contact](#contact)
 
 ## Usage
-djjd
+This project runs through the terminal/gitbash.
 
 ## Installation
-djdj
+Install inquirer.
 
 ## Contributing
-djdj
+None
 
 ## Tests
-djdj
+No
 
 ## License 
-The licesne used for this project was Common Development and Distribution.
+The licesne used for this project was Mozilla Public License.
 
 ## Contact 
-Contact me at https://github.com/dksl; or dks.
+Contact me at https://github.com/untjala or jala.binbek@outlook.com.
