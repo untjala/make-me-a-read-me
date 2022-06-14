@@ -47,6 +47,17 @@ const questions = [
             'MIT',
             'Mozilla Public License',
         ]
+        
+    },
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'What is your LinkedIn?',
+        name: 'linkedin',
     },
 ];
 // TODO: Create a function to write README file
